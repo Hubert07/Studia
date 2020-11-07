@@ -5,7 +5,7 @@ echo -e "Usuwanie kontaktu\n\tLista osob:"
 
 cat dane.txt
 
-echo -e "\nPodaj imie i nr telefonu osoby ktora chcesz usunac"
+echo -e "\nPodaj imie nazwisko i nr telefonu osoby ktora chcesz usunac"
 read imie_szuk nazwisko_szuk tel_szuk
 
 touch dane_temp.txt
