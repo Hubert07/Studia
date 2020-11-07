@@ -1,0 +1,17 @@
+
+Dzien dobry, oto instrukcja obslugi
+
+     *************************
+     *                       *
+     * Ksiazki telefonicznej *
+     *                       *
+     *************************
+
+Jeżeli nie umiesz z niej skorzystac, to umm
+Wlacz program i kieruj sie z godnie z instrukcjami
+wyswietlanymi na ekranie.
+Powdzenia!
+
+Ksiazka telefoniczna umozliwi ci dodanie/usuwanie nowych osob, 
+wyswietlenie listy kontaktow a takze wyszukanie osoby po
+imieniu lub/i nazwisku.

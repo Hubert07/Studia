@@ -1,0 +1,13 @@
+Witamy w programie kalkualtor.
+
+W celu uruchomienia programu prosze
+w konsoli wpisac polecenie './kalkulator.sh' 
+po czym wpisac pierwsza liczbe, nastepnie
+znak dzialania i na koniec druga liczbe.
+
+Po uzyskaniu odpowiedzi w celu zamkniecia
+aplikacji prosze wpiac "n" lub "nie".
+
+Jezeli chcesz kontynuowac wpisz "t" albo
+"tak".
+
