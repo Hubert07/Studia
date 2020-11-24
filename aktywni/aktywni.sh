@@ -15,3 +15,10 @@ done < log_temp.txt
 rm log.txt
 rm log_temp.txt
 mv log2.txt log.txt
+
+status=$(cat log.txt)
+email=aaa@email.com
+
+echo -e "Oto lista aktywnych uzytkownikow:\n$status" | mutt -s\
+ "Aktywni" $email
+echo "Wiadomosc zostala wyslana"
