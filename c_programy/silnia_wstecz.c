@@ -26,20 +26,13 @@
 
 int main(int argc, char **argv)
 {
-    int a, i;
+    long long int a, i;
     printf("Podaj liczbe: ");
-    scanf("%d", &a);
+    scanf("%I64d", &a);
     i = a;
     while (i > 1) {
-        printf("%d\n", a);
+        printf("%I64d\n", a);
         a = a*(i - 1);
-        if (a > 1000000) {
-            int x,y;
-            x = a/1000000;
-            y = a%1000000;
-            printf("%d   %d\n", x,y);
-            printf("%d   %d\n", x*(i-1),y*(i-1));
-        }
         i = i - 1;
     }
     return 0;

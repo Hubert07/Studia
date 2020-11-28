@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 {
     int i, silnia=1;
 
-    for(i = 1; i <= 5; i++) {
+    for(i = 1; i <= 20; i++) {
         silnia = silnia*i;
         printf("i=%d silnia = %d\n", i,silnia);
     }
