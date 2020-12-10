@@ -40,11 +40,17 @@ void sprawdz(int tablica[10][15])
         int pion1 = tablica[i-1][j];
         int pion2 = tablica[i+1][j];
 
+
         if(j-1 < 0)
             poziom1 = tablica[i][14];
+        if(j+1 > 14)
+            poziom2 = tablica[i][0];
 
         if(i-1 < 0)
             pion1 = tablica[9][j];
+        if(i+1 > 9)
+            pion2 = tablica[0][j];
+
 
         if(((pion1+pion2) > tablica[i][j] && (poziom1 + poziom2) < tablica[i][j]) || ((pion1+pion2) < tablica[i][j] && (poziom1 + poziom2) > tablica[i][j])) {
             printf("wiersz: %d kolumna :%d\n", i,j);
