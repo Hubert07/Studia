@@ -35,7 +35,7 @@ void styk(float x1, float y1, float r1, float x2, float y2, float r2) {
     * y = (y-y1)^2 = r^2 - (x- x1)^2 DELTĄ TRZEBA 
     * x = x
     * 
-    * x <x1 - r ; x1 + r> 
+    * x <x1 - r ; x1 + r>  W PRZYSZŁOŚCI ZROBIĆ TAK, ŻEBY WYBIERAŁO OKRĄG O MNIEJSZYM PROMIENIU
     * 
     * 1. wyznaczyć y dla danego x z pętli takie, że (x-x1)^2 + (y-y1)^2 = r1^2
     *   1a. y^2 - 2y1y +[y1^2 -r1^2 + (x-x1)^2] = 0
