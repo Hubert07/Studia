@@ -66,16 +66,16 @@ void styk(float x1, float y1, float r1, float x2, float y2, float r2) {
         double okrag2b = pow((double)(x-x2),2) + pow((double)(yb-y2),2) - pow((double)r2,2);
         
         if(okrag2a == okrag2b) {
-            if(fabs(okrag2a) <= 0.000001) {
+            if(fabs(okrag2a) <= 0.000002) {
                 printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, ya);
             }
         }
         else {
-            if(fabs(okrag2a) <= 0.000001) {
+            if(fabs(okrag2a) <= 0.000004) {
                 printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, ya);
             }
 
-            if(fabs(okrag2b) <= 0.000001) {
+            if(fabs(okrag2b) <= 0.000004) {
                 printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, yb);
             }
         }
