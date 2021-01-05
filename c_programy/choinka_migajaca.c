@@ -47,7 +47,6 @@ int main(int argc, char **argv)
     wybor();
     scanf("%d", &odp);
     system("cls");
-    printf("\n");
 
     switch (odp)
     {
