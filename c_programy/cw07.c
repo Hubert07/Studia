@@ -45,6 +45,8 @@ void styk(float x1, float y1, float r1, float x2, float y2, float r2) {
      
     double ya, yb;
     double x = (x1 + r1);
+    double odp;
+    int ktorytoraz = 1;
     printf("x = %f\n", x);
 
 
@@ -65,22 +67,45 @@ void styk(float x1, float y1, float r1, float x2, float y2, float r2) {
         double okrag2a = pow((double)(x-x2),2) + pow((double)(ya-y2),2) - pow((double)r2,2);
         double okrag2b = pow((double)(x-x2),2) + pow((double)(yb-y2),2) - pow((double)r2,2);
         
+        // dla pkt styczności
         if(okrag2a == okrag2b) {
-            if(fabs(okrag2a) <= 0.000002) {
+            if(round(10000*fabs(okrag2a)) == 0) {
                 printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, ya);
             }
         }
+
         else {
-            if(fabs(okrag2a) <= 0.000004) {
-                printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, ya);
+            if(round(10000*fabs(okrag2a)) == 0) {
+                // sprawdzanie czy odp się nie powtórzyła
+                if(ktorytoraz == 1) {
+                    odp = okrag2a;
+                    printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, ya);
+                    ktorytoraz = 2;
+                }
+                else if (ktorytoraz == 2) {
+                    if(fabs(odp - okrag2a) > 0.0001) {
+                        printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, ya);
+                    }
+                }
             }
 
-            if(fabs(okrag2b) <= 0.000004) {
-                printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, yb);
+            if(round(10000*fabs(okrag2b)) == 0) {
+                // sprawdzanie czy odp się nie powtórzyła
+                if(ktorytoraz == 1) {
+                    odp = okrag2b;
+                    printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, yb);
+                    //to wyłącza możliwość, żeby obydwa pkt były na tej samej połowie koła (zakładamy, że istnieje górna połowa(okrag2a) i dolna (okrag2b))
+                    ktorytoraz = 2;
+                }
+                else if (ktorytoraz == 2) {
+                    if(fabs(odp - okrag2b) > 0.0001) {
+                        printf("Okregi przecinaja sie w pkt x = %lf y = %lf\n", x, yb);
+                    }
+                }
             }
         }
         //sprawdzenie czy okrąg 2 po podstawieniu == 0
-        //printf("2a=%fl 2b=%fl\n", okrag2a, okrag2b);
+        printf("2a=%fl 2b=%fl\n", okrag2a, okrag2b);
         x = x - 0.000001;
     }
 }
