@@ -1,0 +1,18 @@
+Przedmioty sa w podanej kolejnosci w pliku ilosc.txt:
+1.woda 1.0 zl
+2.sok 2.50zl
+3.cola 5zl
+4.paluszki 3.20zl
+5.lizak 0.60zl
+
+A pieniadze w money.txt:
+1.100zl
+2.50zl
+3.20zl
+4.10zl
+5.5zl
+6.2zl
+7.1zl
+8.50gr
+9.20gr
+10.10gr

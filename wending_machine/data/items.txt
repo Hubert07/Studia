@@ -1,0 +1,5 @@
+1.woda 1.00 zl
+2.sok 2.50zl
+3.cola 5.50zl
+4.paluszki 3.20zl
+5.lizak 0.60zl
