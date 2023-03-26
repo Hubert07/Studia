@@ -67,8 +67,24 @@ void TKubek::addbyvolume(std::string name, double pctofvol){
 }
 
 
+void TKubek::przelejdo(TKubek &kubek2){
+	int count = volumes.size();
+
+	for (int i = 0; i < count; i++) {
+		string nazwa = this->substancje_w_kubku[0].get_name();
+		double objetosc = this->volumes[0] * 1e6;
+
+		kubek2.add(nazwa, objetosc);
+
+		this->substancje_w_kubku.erase(substancje_w_kubku.begin());
+		this->volumes.erase(volumes.begin());
+	}
+}
+
+
 void TKubek::show() {
 	int count = substancje_w_kubku.size();
+	cout << "\n";
 	for (int i = 0; i < count; i++) {
 		double mass = substancje_w_kubku[i].get_ro() * volumes[i] * 1e3;
 		cout << substancje_w_kubku[i].get_name()
@@ -133,5 +149,5 @@ void TKubek::masscoe() {
 	for (int i = 0; i < count; i++) {
 		cout << masy[i] / total_mass * 100 << " - ";
 	}
-	cout << "\n";
+	cout << "\n\n";
 }

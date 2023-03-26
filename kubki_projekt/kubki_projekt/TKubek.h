@@ -14,6 +14,9 @@ public:
 	void add(std::string name, double volume_in_ml);
 	void addbymass(std::string name, double pctofmass);
 	void addbyvolume(std::string name, double pctofvol);
+
+	void przelejdo(TKubek &kubek2);
+
 	void show();
 
 private:
