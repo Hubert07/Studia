@@ -1,0 +1,7 @@
+jesli ocena osobnika < 0 nalezy znalezc wartosc minimalną osobnika w populacji i dla kazdego
+osobnika do oceny dodac -ocena_minimalna
+nastepnie np każdy osobnik mógłby yć oceniony w skali 0-max_ocena_w_populacji
+i wtedy najlepszy osobnik miałby ocenę pierwotną
+najsłabszy 0
+reszta by miała oceny bliskie 0
+ale wtedy cierpi różnorodność genetyczna

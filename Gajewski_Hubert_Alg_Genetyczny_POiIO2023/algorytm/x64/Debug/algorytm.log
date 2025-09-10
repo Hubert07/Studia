@@ -1,0 +1,7 @@
+﻿  TAlgorytm.cpp
+H:\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TAlgorytm.cpp(68,19): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+H:\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TAlgorytm.cpp(246,9): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+H:\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TAlgorytm.cpp(266,2): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+H:\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TAlgorytm.cpp(267,43): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+H:\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TAlgorytm.cpp(196): warning C4715: "TAlgorytm::var_check”: niewszystkie ścieżki kodu zwracają wartość
+  algorytm.vcxproj -> H:\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\x64\Debug\algorytm.exe

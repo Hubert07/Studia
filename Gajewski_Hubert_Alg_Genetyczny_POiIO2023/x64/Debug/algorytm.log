@@ -1,0 +1,12 @@
+﻿  TGen.cpp
+C:\Users\LabPOIO-16\Desktop\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\algorytm\TGen.cpp(40,38): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  TOsobnik.cpp
+C:\Users\LabPOIO-16\Desktop\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\algorytm\TOsobnik.cpp(18,25): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\LabPOIO-16\Desktop\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\algorytm\TOsobnik.cpp(23,14): warning C4244: "inicjowanie": konwersja z "_Ty" do "int", możliwa utrata danych
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\LabPOIO-16\Desktop\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\algorytm\TOsobnik.cpp(31,24): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  Generowanie kodu...
+  algorytm.vcxproj -> C:\Users\LabPOIO-16\Desktop\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\x64\Debug\algorytm.exe

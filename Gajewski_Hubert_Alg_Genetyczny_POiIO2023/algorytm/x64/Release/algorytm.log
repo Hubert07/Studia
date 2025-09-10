@@ -1,0 +1,10 @@
+﻿  TGen.cpp
+C:\Users\weron\OneDrive\Pulpit\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TGen.cpp(85,10): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  TOsobnik.cpp
+C:\Users\weron\OneDrive\Pulpit\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\algorytm\TOsobnik.cpp(64,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  Trwa generowanie kodu
+  26 of 247 functions (10.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  algorytm.vcxproj -> C:\Users\weron\OneDrive\Pulpit\Gajewski_Hubert_Alg_Genetyczny_POiIO2023\x64\Release\algorytm.exe
