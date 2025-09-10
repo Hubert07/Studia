@@ -1,0 +1,3 @@
+skompilowac funkcje do rysowania jako g++ -O3 *.cpp
+
+optymalizacja kompilowanego pliku
